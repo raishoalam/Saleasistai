@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.review-container {
+  background-color: #000;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+}
+.heading-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.review-heading {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.card-wrappers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.review-card {
+  background-color: black;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: 280px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.review-image {
+  width: 280px;
+  height: 483px;
+  margin: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.bookmark {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+}
+.book-icons {
+  color: #111;
+  font-size: 34px;
+  margin-left: 230px;
+  margin-top: -540px;
+  gap: 30px;
+}
+li {
+  list-style: none;
+}
+.review-para {
+  font-size: 15px;
+  font-weight: 50;
+  color: #fff;
+  font-family: 'roboto';
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.icons {
+  display: flex;
+  padding-top: 0px;
+  justify-content: space-between;
+}
+.review-price {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #fff;
+}
+.price-icons {
+  color: #fff;
+}
+.offers {
+  color: green;
+  font-size: 17px;
+}
+.bag-icons {
+  margin-top: 0px;
+  font-size: 35px;
+  color: #fff;
+}
+
+/* HEADER SECTION */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header-heading {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: fantasy;
+  letter-spacing: 3px;
+}
+.head-icon {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+.header-menu {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+}
+.menu {
+  color: #999;
+  padding-left: 30px;
+  font-family: 'roboto';
+  font-weight: 300;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.dis {
+  color: #999;
+  font-size: 17px;
+  text-decoration: line-through;
+}
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.head-icons {
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+}
+.nav-head {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
